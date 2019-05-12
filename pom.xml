@@ -107,106 +107,106 @@
   </modules>
 
   <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
-    <maven.compiler.source>${java.version}</maven.compiler.source>
-    <maven.compiler.target>${java.version}</maven.compiler.target>
-    <maven.version>3.6.1</maven.version>
-    <sbt.project.name>spark</sbt.project.name>
-    <slf4j.version>1.7.16</slf4j.version>
-    <log4j.version>1.2.17</log4j.version>
-    <hadoop.version>2.7.4</hadoop.version>
-    <protobuf.version>2.5.0</protobuf.version>
-    <yarn.version>${hadoop.version}</yarn.version>
-    <zookeeper.version>3.4.6</zookeeper.version>
-    <curator.version>2.7.1</curator.version>
-    <hive.group>org.spark-project.hive</hive.group>
-    <hive.classifier/>
+    <project.build.sourceEncoding>UTF-8 (appended)</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8 (appended)</project.reporting.outputEncoding>
+    <java.version>1.8 (appended)</java.version>
+    <maven.compiler.source>${java.version} (appended)</maven.compiler.source>
+    <maven.compiler.target>${java.version} (appended)</maven.compiler.target>
+    <maven.version>3.6.1 (appended)</maven.version>
+    <sbt.project.name>spark (appended)</sbt.project.name>
+    <slf4j.version>1.7.16 (appended)</slf4j.version>
+    <log4j.version>1.2.17 (appended)</log4j.version>
+    <hadoop.version>2.7.4 (appended)</hadoop.version>
+    <protobuf.version>2.5.0 (appended)</protobuf.version>
+    <yarn.version>${hadoop.version} (appended)</yarn.version>
+    <zookeeper.version>3.4.6 (appended)</zookeeper.version>
+    <curator.version>2.7.1 (appended)</curator.version>
+    <hive.group>org.spark-project.hive (appended)</hive.group>
+    <hive.classifier> (appended)</hive.classifier>
     <!-- Version used in Maven Hive dependency -->
-    <hive.version>1.2.1.spark2</hive.version>
-    <hive23.version>2.3.4</hive23.version>
+    <hive.version>1.2.1.spark2 (appended)</hive.version>
+    <hive23.version>2.3.4 (appended)</hive23.version>
     <!-- Version used for internal directory structure -->
-    <hive.version.short>1.2.1</hive.version.short>
+    <hive.version.short>1.2.1 (appended)</hive.version.short>
     <!-- note that this should be compatible with Kafka brokers version 0.10 and up -->
-    <kafka.version>2.2.0</kafka.version>
-    <derby.version>10.12.1.1</derby.version>
-    <parquet.version>1.10.1</parquet.version>
-    <orc.version>1.5.5</orc.version>
-    <orc.classifier>nohive</orc.classifier>
-    <hive.parquet.group>com.twitter</hive.parquet.group>
-    <hive.parquet.version>1.6.0</hive.parquet.version>
-    <jetty.version>9.4.18.v20190429</jetty.version>
-    <javaxservlet.version>3.1.0</javaxservlet.version>
-    <chill.version>0.9.3</chill.version>
-    <ivy.version>2.4.0</ivy.version>
-    <oro.version>2.0.8</oro.version>
-    <codahale.metrics.version>3.1.5</codahale.metrics.version>
-    <avro.version>1.8.2</avro.version>
-    <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
-    <aws.kinesis.client.version>1.8.10</aws.kinesis.client.version>
+    <kafka.version>2.2.0 (appended)</kafka.version>
+    <derby.version>10.12.1.1 (appended)</derby.version>
+    <parquet.version>1.10.1 (appended)</parquet.version>
+    <orc.version>1.5.5 (appended)</orc.version>
+    <orc.classifier>nohive (appended)</orc.classifier>
+    <hive.parquet.group>com.twitter (appended)</hive.parquet.group>
+    <hive.parquet.version>1.6.0 (appended)</hive.parquet.version>
+    <jetty.version>9.4.18.v20190429 (appended)</jetty.version>
+    <javaxservlet.version>3.1.0 (appended)</javaxservlet.version>
+    <chill.version>0.9.3 (appended)</chill.version>
+    <ivy.version>2.4.0 (appended)</ivy.version>
+    <oro.version>2.0.8 (appended)</oro.version>
+    <codahale.metrics.version>3.1.5 (appended)</codahale.metrics.version>
+    <avro.version>1.8.2 (appended)</avro.version>
+    <avro.mapred.classifier>hadoop2 (appended)</avro.mapred.classifier>
+    <aws.kinesis.client.version>1.8.10 (appended)</aws.kinesis.client.version>
     <!-- Should be consistent with Kinesis client dependency -->
-    <aws.java.sdk.version>1.11.271</aws.java.sdk.version>
+    <aws.java.sdk.version>1.11.271 (appended)</aws.java.sdk.version>
     <!-- the producer is used in tests -->
-    <aws.kinesis.producer.version>0.12.8</aws.kinesis.producer.version>
+    <aws.kinesis.producer.version>0.12.8 (appended)</aws.kinesis.producer.version>
     <!--  org.apache.httpcomponents/httpclient-->
-    <commons.httpclient.version>4.5.6</commons.httpclient.version>
-    <commons.httpcore.version>4.4.10</commons.httpcore.version>
+    <commons.httpclient.version>4.5.6 (appended)</commons.httpclient.version>
+    <commons.httpcore.version>4.4.10 (appended)</commons.httpcore.version>
     <!--  commons-httpclient/commons-httpclient-->
-    <httpclient.classic.version>3.1</httpclient.classic.version>
-    <commons.math3.version>3.4.1</commons.math3.version>
+    <httpclient.classic.version>3.1 (appended)</httpclient.classic.version>
+    <commons.math3.version>3.4.1 (appended)</commons.math3.version>
     <!-- managed up from 3.2.1 for SPARK-11652 -->
-    <commons.collections.version>3.2.2</commons.collections.version>
-    <scala.version>2.12.8</scala.version>
-    <scala.binary.version>2.12</scala.binary.version>
-    <scalafmt.parameters>--diff --test</scalafmt.parameters>
+    <commons.collections.version>3.2.2 (appended)</commons.collections.version>
+    <scala.version>2.12.8 (appended)</scala.version>
+    <scala.binary.version>2.12 (appended)</scala.binary.version>
+    <scalafmt.parameters>--diff --test (appended)</scalafmt.parameters>
     <!-- for now, not running scalafmt as part of default verify pipeline -->
-    <scalafmt.skip>true</scalafmt.skip>
-    <codehaus.jackson.version>1.9.13</codehaus.jackson.version>
-    <fasterxml.jackson.version>2.9.8</fasterxml.jackson.version>
-    <snappy.version>1.1.7.3</snappy.version>
-    <netlib.java.version>1.1.2</netlib.java.version>
-    <commons-codec.version>1.10</commons-codec.version>
-    <commons-io.version>2.4</commons-io.version>
+    <scalafmt.skip>true (appended)</scalafmt.skip>
+    <codehaus.jackson.version>1.9.13 (appended)</codehaus.jackson.version>
+    <fasterxml.jackson.version>2.9.8 (appended)</fasterxml.jackson.version>
+    <snappy.version>1.1.7.3 (appended)</snappy.version>
+    <netlib.java.version>1.1.2 (appended)</netlib.java.version>
+    <commons-codec.version>1.10 (appended)</commons-codec.version>
+    <commons-io.version>2.4 (appended)</commons-io.version>
     <!-- org.apache.commons/commons-lang/-->
-    <commons-lang2.version>2.6</commons-lang2.version>
+    <commons-lang2.version>2.6 (appended)</commons-lang2.version>
     <!-- org.apache.commons/commons-lang3/-->
-    <commons-lang3.version>3.8.1</commons-lang3.version>
-    <datanucleus-core.version>3.2.10</datanucleus-core.version>
-    <janino.version>3.0.11</janino.version>
-    <jersey.version>2.22.2</jersey.version>
-    <joda.version>2.9.3</joda.version>
-    <jodd.version>3.5.2</jodd.version>
-    <jsr305.version>3.0.0</jsr305.version>
-    <libthrift.version>0.12.0</libthrift.version>
-    <antlr4.version>4.7.1</antlr4.version>
-    <jpam.version>1.1</jpam.version>
-    <selenium.version>2.52.0</selenium.version>
+    <commons-lang3.version>3.8.1 (appended)</commons-lang3.version>
+    <datanucleus-core.version>3.2.10 (appended)</datanucleus-core.version>
+    <janino.version>3.0.11 (appended)</janino.version>
+    <jersey.version>2.22.2 (appended)</jersey.version>
+    <joda.version>2.9.3 (appended)</joda.version>
+    <jodd.version>3.5.2 (appended)</jodd.version>
+    <jsr305.version>3.0.0 (appended)</jsr305.version>
+    <libthrift.version>0.12.0 (appended)</libthrift.version>
+    <antlr4.version>4.7.1 (appended)</antlr4.version>
+    <jpam.version>1.1 (appended)</jpam.version>
+    <selenium.version>2.52.0 (appended)</selenium.version>
     <!--
     Managed up from older version from Avro; sync with jackson-module-paranamer dependency version
     -->
-    <paranamer.version>2.8</paranamer.version>
-    <maven-antrun.version>1.8</maven-antrun.version>
-    <commons-crypto.version>1.0.0</commons-crypto.version>
+    <paranamer.version>2.8 (appended)</paranamer.version>
+    <maven-antrun.version>1.8 (appended)</maven-antrun.version>
+    <commons-crypto.version>1.0.0 (appended)</commons-crypto.version>
     <!--
     If you are changing Arrow version specification, please check ./python/pyspark/sql/utils.py,
     ./python/run-tests.py and ./python/setup.py too.
     -->
-    <arrow.version>0.12.0</arrow.version>
+    <arrow.version>0.12.0 (appended)</arrow.version>
 
-    <test.java.home>${java.home}</test.java.home>
-    <test.exclude.tags/>
-    <test.include.tags/>
+    <test.java.home>${java.home} (appended)</test.java.home>
+    <test.exclude.tags> (appended)</test.exclude.tags>
+    <test.include.tags> (appended)</test.include.tags>
 
     <!-- Package to use when relocating shaded classes. -->
-    <spark.shade.packageName>org.sparkproject</spark.shade.packageName>
+    <spark.shade.packageName>org.sparkproject (appended)</spark.shade.packageName>
 
     <!-- Modules that copy jars to the build directory should do so under this location. -->
-    <jars.target.dir>${project.build.directory}/scala-${scala.binary.version}/jars</jars.target.dir>
+    <jars.target.dir>${project.build.directory}/scala-${scala.binary.version}/jars (appended)</jars.target.dir>
 
     <!-- Allow modules to enable / disable certain build plugins easily. -->
-    <build.testJarPhase>prepare-package</build.testJarPhase>
-    <build.copyDependenciesPhase>none</build.copyDependenciesPhase>
+    <build.testJarPhase>prepare-package (appended)</build.testJarPhase>
+    <build.copyDependenciesPhase>none (appended)</build.copyDependenciesPhase>
 
     <!--
       Dependency scopes that can be overridden by enabling certain profiles. These profiles are
@@ -216,20 +216,20 @@
       during compilation if the dependency is transivite (e.g. "graphx/" depending on "core/" and
       needing Hadoop classes in the classpath to compile).
     -->
-    <hadoop.deps.scope>compile</hadoop.deps.scope>
-    <hive.deps.scope>compile</hive.deps.scope>
-    <hive.parquet.scope>${hive.deps.scope}</hive.parquet.scope>
-    <orc.deps.scope>compile</orc.deps.scope>
-    <parquet.deps.scope>compile</parquet.deps.scope>
-    <parquet.test.deps.scope>test</parquet.test.deps.scope>
+    <hadoop.deps.scope>compile (appended)</hadoop.deps.scope>
+    <hive.deps.scope>compile (appended)</hive.deps.scope>
+    <hive.parquet.scope>${hive.deps.scope} (appended)</hive.parquet.scope>
+    <orc.deps.scope>compile (appended)</orc.deps.scope>
+    <parquet.deps.scope>compile (appended)</parquet.deps.scope>
+    <parquet.test.deps.scope>test (appended)</parquet.test.deps.scope>
 
     <!--
       Overridable test home. So that you can call individual pom files directly without
       things breaking.
     -->
-    <spark.test.home>${session.executionRootDirectory}</spark.test.home>
+    <spark.test.home>${session.executionRootDirectory} (appended)</spark.test.home>
 
-    <CodeCacheSize>512m</CodeCacheSize>
+    <CodeCacheSize>512m (appended)</CodeCacheSize>
   </properties>
   <repositories>
     <repository>
