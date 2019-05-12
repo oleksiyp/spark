@@ -1,4 +1,5 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.apache</groupId>
@@ -100,7 +101,7 @@
     <zookeeper.version>3.4.6</zookeeper.version>
     <curator.version>2.7.1</curator.version>
     <hive.group>org.spark-project.hive</hive.group>
-    <hive.classifier></hive.classifier>
+    <hive.classifier/>
     <hive.version>1.2.1.spark2</hive.version>
     <hive23.version>2.3.4</hive23.version>
     <hive.version.short>1.2.1</hive.version.short>
@@ -154,8 +155,8 @@
     <commons-crypto.version>1.0.0</commons-crypto.version>
     <arrow.version>0.12.0</arrow.version>
     <test.java.home>${java.home}</test.java.home>
-    <test.exclude.tags></test.exclude.tags>
-    <test.include.tags></test.include.tags>
+    <test.exclude.tags/>
+    <test.include.tags/>
     <spark.shade.packageName>org.sparkproject</spark.shade.packageName>
     <jars.target.dir>${project.build.directory}/scala-${scala.binary.version}/jars</jars.target.dir>
     <build.testJarPhase>prepare-package</build.testJarPhase>
@@ -2324,7 +2325,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2337,7 +2338,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
                 <pluginExecution>
@@ -2350,7 +2351,7 @@
                     </goals>
                   </pluginExecutionFilter>
                   <action>
-                    <ignore></ignore>
+                    <ignore/>
                   </action>
                 </pluginExecution>
               </pluginExecutions>
@@ -2860,7 +2861,7 @@
         <hive.version>${hive23.version}</hive.version>
         <hive.version.short>2.3.4</hive.version.short>
         <hive.parquet.scope>provided</hive.parquet.scope>
-        <orc.classifier></orc.classifier>
+        <orc.classifier/>
         <datanucleus-core.version>4.1.17</datanucleus-core.version>
       </properties>
       <dependencies>
@@ -2998,7 +2999,7 @@
         <hive.version>${hive23.version}</hive.version>
         <datanucleus-core.version>4.1.17</datanucleus-core.version>
         <hive.classifier>core</hive.classifier>
-        <orc.classifier></orc.classifier>
+        <orc.classifier/>
         <zookeeper.version>3.4.13</zookeeper.version>
         <curator.version>2.13.0</curator.version>
         <hadoop.version>3.2.0</hadoop.version>
