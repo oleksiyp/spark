@@ -2467,6 +2467,7 @@
               <tag>
                 <name>groupname</name>
                 <placement>X</placement>
+                <head>Example:</head>
               </tag>
             </tags>
             <tarLongFileMode>posix</tarLongFileMode>
@@ -2758,6 +2759,9 @@
             <relocation>
               <pattern>org.jpmml</pattern>
               <shadedPattern>${spark.shade.packageName}.jpmml</shadedPattern>
+              <includes>
+                <include>org.eclipse.jetty.**</include>
+              </includes>
             </relocation>
           </relocations>
           <verbose>false</verbose>
